@@ -12,5 +12,7 @@ public class DoubleParameter {
 	
 	public static void main(String[] args) {
 		display((a,b)->System.out.println(a+" "+b),23,7);
+		P2 p = (int a,int b)->System.out.println(a+b);
+		p.print(20, 300);
 	}
 }

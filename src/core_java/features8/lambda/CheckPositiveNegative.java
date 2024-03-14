@@ -3,7 +3,6 @@ package core_java.features8.lambda;
 import java.util.Scanner;
 
 interface PositiveNegative {
-
 	boolean positiveNegative(int a);
 }
 
